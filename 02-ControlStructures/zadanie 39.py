@@ -7,4 +7,7 @@ while liczba < fibonacci:
     nth = n1 + n2
     n1 = n2
     n2 = nth
-    liczba += 1
+    liczba += 1    
+print()
+
+    
