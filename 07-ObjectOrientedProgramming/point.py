@@ -4,3 +4,5 @@ class Point():
         self.y = y
     def __str__(self):
         return f'P({self.x},{self.y})'
+    def __eq__(self, other):
+        return self.x == other.x and self.y == other.y
