@@ -1,5 +1,9 @@
 import random
 class arrays():
+    seperator = ','
+    @staticmethod
+    def change_seperator(sep):
+        arrays.seperator = sep
     @staticmethod
     def print_in_col(array):
         for c in array:
@@ -9,7 +13,7 @@ class arrays():
         n = 1
         for i in array:  
             if n < len(array):
-                print(i,end=', ')
+                print(i,end=f'{arrays.seperator} ')
                 n += 1
             else:
                 print(i)

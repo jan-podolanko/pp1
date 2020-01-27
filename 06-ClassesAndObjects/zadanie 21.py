@@ -8,6 +8,7 @@ class Statystyka():
     def wyswietl(self):
         for i in self.zbior_liczb:
             print(i, end=' ')
+        print('\n')
     def wyznacz_najwyzsza_l(self):
         self.najw_l = max(self.zbior_liczb)
         print(f'Najwyzsza liczba zbioru jest {self.najw_l}')
